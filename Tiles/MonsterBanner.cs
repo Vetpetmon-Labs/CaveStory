@@ -22,7 +22,7 @@ namespace CaveStory.Tiles
 			TileObjectData.newTile.StyleWrapLimit = 111;
 			TileObjectData.addTile(Type);
 			dustType = -1;
-			disableSmartCursor = true;
+			//disableSmartCursor = true;
 			AddMapEntry(new Color(13, 88, 130), "Banner");
 		}
 
@@ -34,6 +34,9 @@ namespace CaveStory.Tiles
 			{
 				case 0:
 					item = "RedBatBanner";
+					break;
+					case 1:
+					item = "GreenCritterBanner";
 					break;
 				default:
 					return;
@@ -53,6 +56,8 @@ namespace CaveStory.Tiles
 					case 0:
 						type = "RedBat";
 						break;
+						case 1:
+						type= "GreenCritter";
 					default:
 						return;
 				}

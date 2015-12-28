@@ -49,11 +49,13 @@
     <Compile Include="Dusts\NemesisSmoke.cs" />
     <Compile Include="Dusts\StarMuzzleFlash.cs" />
     <Compile Include="Dusts\BubblinePop.cs" />
+    <Compile Include="Items\Banners\GreenCritterBanner.cs" />
     <Compile Include="Items\Banners\RedBatBanner.cs" />
     <Compile Include="Items\BoosterVPointEight.cs" />
     <Compile Include="Items\Bubbline.cs" />
     <Compile Include="Items\BubblineExp.cs" />
     <Compile Include="Items\CaveStoryExperience.cs" />
+    <Compile Include="Items\Chinfish.cs" />
     <Compile Include="Items\Fireball.cs" />
     <Compile Include="Items\FireballExp.cs" />
     <Compile Include="Items\MachineGun.cs" />
@@ -63,6 +65,7 @@
     <Compile Include="Items\TowRope.cs" />
     <Compile Include="Mounts\CurlyBrace.cs" />
     <Compile Include="NPCs\ExpDrop.cs" />
+    <Compile Include="NPCs\GreenCritter.cs" />
     <Compile Include="NPCs\RedBat.cs" />
     <Compile Include="Projectiles\BubbleProjectile.cs" />
     <Compile Include="Projectiles\BubbleProjectileFlying.cs" />
@@ -113,7 +116,7 @@
     <Folder Include="Sounds\NPCKilled\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
   </Target>
